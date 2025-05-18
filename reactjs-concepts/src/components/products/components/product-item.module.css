@@ -1,0 +1,15 @@
+.buttonStyle {
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+    padding: 10px 40px;
+    border: none;
+    font-weight: bolder;
+    font-family: monospace;
+}
+
+.list {
+    padding: 2rem;
+    border-radius: 10px;
+    border: 2px solid blue;
+}
