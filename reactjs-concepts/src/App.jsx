@@ -6,6 +6,9 @@ import ClassComponent from "./components/class-component";
 import FuntionalComponent from "./components/funtional-component";
 import ProductList from "./components/products";
 import UsersComponent from "./components/users";
+import ContextButtonComponet from "./components/context-concept/button";
+import ContextTextComponet from "./components/context-concept/text";
+import UseReducerConcept from "./components/use-reducer-concept";
 
 const dummyProductsList = ["Product1", "Product2", "Product3"];
 
@@ -20,7 +23,10 @@ function App() {
 
       {/* <ProductList productLists={dummyProductsList} /> */}
 
-      <UsersComponent />
+      {/* <UsersComponent /> */}
+      {/* <ContextButtonComponet />
+      <ContextTextComponet /> */}
+      <UseReducerConcept />
     </>
   );
 }
